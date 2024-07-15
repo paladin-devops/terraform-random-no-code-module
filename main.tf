@@ -1,6 +1,6 @@
 resource "random_string" "id" {
   keepers = {
-      uuid = uuid()
+    uuid = uuid()
   }
 
   length = var.string_length

@@ -1,5 +1,5 @@
 variable "string_length" {
-  type = number
+  type        = number
   description = "The length of the random string"
-  default = 8
+  default     = 8
 }
